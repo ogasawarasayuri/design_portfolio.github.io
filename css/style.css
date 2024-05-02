@@ -62,15 +62,15 @@ body {
     display: inline-block;
     overflow: hidden;
   animation: roll-in 7s ease-in-out forwards; /* アニメーションを適用 */
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 .mv__img:nth-child(2) {
     animation: roll-in 6s ease-in-out forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 .mv__img:nth-child(3) {
     animation: roll-in 5s ease-in-out forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 /* 各画像のアニメーション開始タイミングを遅延させる */
 
@@ -900,6 +900,7 @@ textarea.c-form__input {
     transform: scale(1.1);
 }
 .works__page--bottom{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -1222,7 +1223,7 @@ textarea.c-form__input {
     width:130px;/*横幅*/
     height:130px;/*縦幅*/
     background:#a38019;/*背景色*/
-    right: -9%;
+    right: -11%;
     top: 1250px;
     animation: fluidrotate1 40s ease 0s infinite;/*アニメーションの設定*/
     border-radius: 30% 70% 70% 30% / 51% 62% 38% 49%;
@@ -1235,9 +1236,8 @@ textarea.c-form__input {
     background:#788e78;/*背景色*/
     animation: fluidrotate2 30s ease 0s infinite;/*アニメーションの設定*/
     border-radius:32% 68% 58% 42% / 20% 35% 65% 80%;
-    left: -19%;
-    top:720px;
-    z-index: -1;
+    left: -26%;
+    top:679px;
 }
 .fluid__works__camping3{
     position: absolute;
@@ -1246,8 +1246,8 @@ textarea.c-form__input {
     background:#a38019;/*背景色*/
     animation: fluidrotate3 30s ease 0s infinite;/*アニメーションの設定*/
     border-radius:51% 49% 49% 51% / 54% 35% 65% 46%;
-    left: -5%;
-    top:775px;
+    left: -13%;
+    top:780px;
 }
 .fluid__square1,
 .fluid__square2,
@@ -1454,6 +1454,9 @@ textarea.c-form__input {
         right: -5px;
         top: 130px;
     }
+    .skill__title{
+        margin-top: -67px;
+    }
 }
 @media screen and  (max-width:900px) {
     
@@ -1512,7 +1515,7 @@ textarea.c-form__input {
     text-align: center;
 }
 .works__title--banner img{
-    width: 80%;
+    width: 90%;
 }
 .works__box {
     margin: 0 20px;
@@ -1568,32 +1571,35 @@ textarea.c-form__input {
         gap: 80px;
         
     }
+    .works__title--banner {
+        width: 80%;
+    }
     
     /* works-fluid */
     .fluid__square2{
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 1230px;
+        top: 1165px;
     }
     .fluid__square3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1290px;
+        top: 1175px;
     }
     .fluid__works__camping2{
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 1055px;
+        top: 1010px;
         z-index: 0;
     }
     .fluid__works__camping3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1100px;
+        top: 1040px;
     }
     
     .fluid__hamburger-lux2{
@@ -1606,7 +1612,7 @@ textarea.c-form__input {
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1000px;
+        top: 930px;
     }
 
 }
@@ -1798,9 +1804,7 @@ textarea.c-form__input {
     .works__title--banner{
         text-align: center;
     }
-    .works__title--banner img{
-        width: 80%;
-    }
+    
     .works__page{
         margin-bottom: 100px;
     }
@@ -1822,16 +1826,19 @@ textarea.c-form__input {
     .works__guidance--text2{
         font-size: 16px;
     }
+    .works_pages_opacity::before,
     .works_pages_next-opacity::before,
     .works_pages_prev::before,
     .works_pages_next::before{
         display: none;
     }
     .works_pages_return,
+    .works_pages_opacity, 
+    .works_pages_next-opacity,
     .works_pages_next,
     .works_pages_prev{
         font-size: 16px;
-        font-weight: bold;
+
     }
 
     /* works fluid */
@@ -1887,26 +1894,26 @@ textarea.c-form__input {
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 1140px;
+        top: 1060px;
     }
     .fluid__square3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1200px;
+        top: 1100px;
     }
     .fluid__works__camping2{
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 1005px;
+        top: 940px;
         z-index: 0;
     }
     .fluid__works__camping3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1050px;
+        top: 930px;
     }
     .fluid__hamburger-lux1{
         display: none;
@@ -1915,13 +1922,13 @@ textarea.c-form__input {
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 910px;
+        top: 840px;
     }
     .fluid__hamburger-lux3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 975px;
+        top: 840px;
     }
     /* footer fluid */
     .fluid__footer-rig1{
@@ -2010,5 +2017,9 @@ textarea.c-form__input {
     .skill__title{
         font-size: 18px;
         margin-top:-55px
+    }
+    .works__guidance--text{
+        font-size: 22px;
+        
     }
 }
