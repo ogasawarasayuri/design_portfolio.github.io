@@ -1832,6 +1832,8 @@ textarea.c-form__input {
     .works_pages_next::before{
         display: none;
     }
+    
+    .works_pages_next-opacity::before
     .works_pages_return,
     .works_pages_opacity, 
     .works_pages_next-opacity,
