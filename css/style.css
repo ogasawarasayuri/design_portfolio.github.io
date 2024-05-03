@@ -1685,6 +1685,9 @@ textarea.c-form__input {
         width: 100%;
         flex-direction: column;
     }
+    .works__page--title{
+        font-size: 23px;
+    }
     .contact-text{
         text-align: left;
     }
