@@ -1832,14 +1832,14 @@ textarea.c-form__input {
     .works_pages_next::before{
         display: none;
     }
-    
-    .works_pages_next-opacity::before
+
+    .works_pages_next-opacity::before,
     .works_pages_return,
     .works_pages_opacity, 
     .works_pages_next-opacity,
     .works_pages_next,
     .works_pages_prev{
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -1896,13 +1896,13 @@ textarea.c-form__input {
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 1060px;
+        top: 1110px;
     }
     .fluid__square3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 1100px;
+        top: 1180px;
     }
     .fluid__works__camping2{
         width: 150px;
@@ -1915,7 +1915,7 @@ textarea.c-form__input {
         width: 100px;
         height: 100px;
         left:14%;
-        top: 930px;
+        top: 995px;
     }
     .fluid__hamburger-lux1{
         display: none;
@@ -1924,13 +1924,13 @@ textarea.c-form__input {
         width: 150px;
         height: 150px;
         left: -1%;
-        top: 840px;
+        top: 856px;
     }
     .fluid__hamburger-lux3{
         width: 100px;
         height: 100px;
         left:14%;
-        top: 840px;
+        top: 922px;
     }
     /* footer fluid */
     .fluid__footer-rig1{
@@ -1973,8 +1973,8 @@ textarea.c-form__input {
     .coding::before{
         width:130px;
         height:130px;
-        right: 100px;
-        top: 230px;
+        right: 45px;
+        top: 130px;
     }
 .works__page dl{
     display: block;
@@ -2021,7 +2021,10 @@ textarea.c-form__input {
         margin-top:-55px
     }
     .works__guidance--text{
-        font-size: 22px;
+        font-size: 21px;
         
+    }
+    .contact-text{
+        font-size: 16px;
     }
 }
