@@ -649,7 +649,7 @@ textarea.c-form__input {
 .works__btn{
     display: flex;
     justify-content: center;
-    max-width: 387px;
+    max-width: 390px;
     height: 75px;
     width: 100%;
     background-color:#788e78;
@@ -932,7 +932,7 @@ textarea.c-form__input {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 385px;
+    max-width: 390px;
     height: 75px;
     background-color:#788e78;
     border-radius: 9999px;
