@@ -61,7 +61,7 @@ body {
 .mv__img {
     display: inline-block;
     overflow: hidden;
-  animation: roll-in 7s ease-in-out forwards; /* アニメーションを適用 */
+    animation: roll-in 7s ease-in-out forwards; /* アニメーションを適用 */
     animation-delay: 3s;
 }
 .mv__img:nth-child(2) {
@@ -917,7 +917,7 @@ textarea.c-form__input {
     font-size:29px;
     line-height: 1.74;
     color: #383838;
-    padding-top: 231px;
+    padding-top: 100px;
     padding-bottom: 10px;
 }
 .works__guidance--text2{
@@ -1743,6 +1743,9 @@ textarea.c-form__input {
     .skill__title{
         margin-top: -70px;
     }
+    #WORKS{
+        padding: 0;
+    }
     /* slick スライダーの画像の最大幅を設定 */
     .top__works--area img {
     width: auto;
@@ -1826,7 +1829,7 @@ textarea.c-form__input {
     }
     .works__guidance--text{
         font-size: 25px;
-        padding-top: 150px;
+        padding-top: 80px;
     }
     .works__guidance--text2{
         font-size: 16px;
@@ -2017,6 +2020,27 @@ textarea.c-form__input {
 }
 }
 @media screen and  (max-width:450px) {
+    .hamburger{
+        width: 50px;
+        height: 50px;
+    }
+    .hamburger span,
+    .hamburger span::before,
+    .hamburger span::after{
+        width: 18px;
+        height: 2px;
+    }
+    .hamburger span::after{
+        top: -8px;
+    }
+    .hamburger span::before{
+        top: 8px;
+    }
+    .logo h1 img{
+        width: 55%;
+    }
+
+    
     .coding::before{
         width: 110px;
         height: 110px;
